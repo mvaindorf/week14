@@ -31,7 +31,7 @@ async function getRandomRecipe() {
 
 
     const footer = document.createElement('footer');
-    footer.innerHTML = '&#169 Public Domain';
+    footer.innerHTML = '&#169  Public Domain';
 
     containerElement.appendChild(recipeNameTitle);
     containerElement.appendChild(recipeImage);
