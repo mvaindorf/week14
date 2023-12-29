@@ -1,9 +1,10 @@
 body {
     background-color: #121212;
-    color: #ffffff;
+    color: #ff0000; /* Red text color */
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center; /* Center-align text */
 }
 
 .container {
@@ -12,17 +13,17 @@ body {
     padding: 20px;
     background-color: #222;
     border: 1px solid #444;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Red glow effect */
 }
 
 h2 {
-    color: #00ffcc;
+    color: #ff0000; /* Red heading color */
 }
 
 img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #00ffcc;
+    border: 2px solid #ff0000; /* Red border color */
 }
 
 ul {
@@ -43,8 +44,6 @@ footer {
     margin-top: 20px;
     padding-top: 10px;
     border-top: 1px solid #444;
-    color: #00ffcc;
+    color: #ff0000; /* Red text color */
     font-size: 14px;
 }
-
-/* Add additional cyberpunk styling as needed */
